@@ -1,6 +1,6 @@
 <template>
   <div class="jumbo">
-      <img src="../assets/img/moon.jpeg" alt="moon">
+    <img src="../assets/img/moon.jpeg" alt="moon" />
   </div>
 </template>
 
@@ -12,15 +12,15 @@ export default {
 
 <style scoped>
 .jumbo {
-    height: 35vh;
-    width: 100%;
-    margin-top: 2rem;
+  height: 35vh;
+  width: 100%;
+  margin-top: 2rem;
 }
 
 .jumbo img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 </style>
